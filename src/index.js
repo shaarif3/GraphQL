@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import LearningGraphQL from './Component/LearningGraphQL.jsx';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LearningGraphQL />
   </React.StrictMode>,
   document.getElementById('root')
 );
